@@ -42,14 +42,45 @@ Borrow out = A'Bin + A'B + BBin
 
 Write the detailed procedure here
 
-**Program:**
+**Program**:
+FULL ADDER:
+```
+module ezp4(a,b,cin,sum,carry); 
+input a,b,cin; 
+output sum,carry; 
+assign sum=( (a ^ b)^cin); 
+assign carry= ( (a & b)| ( cin &(a ^ b ))); 
+endmodule
+```
+FULL SUBRACTOR:
+```
+module fs(a,b,bin,difference,borrow); 
+input a,b,bin; 
+output difference,borrow; 
+assign difference= ( (a ^ b)^bin); 
+assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b )))); 
+endmodule
+```
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+
+Developed by: RegisterNumber:25018006
+
 
 **RTL Schematic**
+FULL ADDER:
+![WhatsApp Image 2025-11-26 at 7 34 30 PM](https://github.com/user-attachments/assets/751e39cd-621b-456e-a6c9-6ab4f3d5bcb7)
+FULL SUBRACTOR:
+![WhatsApp Image 2025-11-26 at 2 44 12 PM](https://github.com/user-attachments/assets/95bd5979-db48-492d-844c-860121395a22)
+
+
 
 **Output Timing Waveform**
+FULL ADDER:
+![WhatsApp Image 2025-11-26 at 7 34 30 PM (1)](https://github.com/user-attachments/assets/88b57ceb-5b49-4364-89a9-124a9365e738)
+FULL SUBRACTOR:
+![WhatsApp Image 2025-11-26 at 7 34 30 PM (2)](https://github.com/user-attachments/assets/d9f1efe9-5b32-40d0-a178-7aa321848701)
+
+
 
 **Result:**
 
