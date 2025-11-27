@@ -68,19 +68,20 @@ Developed by: RegisterNumber:25018006
 
 **RTL Schematic**
 FULL ADDER:
-![WhatsApp Image 2025-11-26 at 2 44 12 PM](https://github.com/user-attachments/assets/95bd5979-db48-492d-844c-860121395a22)
-
+![WhatsApp Image 2025-11-26 at 7 34 30 PM](https://github.com/user-attachments/assets/032e9e36-3dc9-4bc0-a279-e22b2bef23a1)
 FULL SUBRACTOR:
-![WhatsApp Image 2025-11-26 at 7 34 30 PM](https://github.com/user-attachments/assets/751e39cd-621b-456e-a6c9-6ab4f3d5bcb7)
+![WhatsApp Image 2025-11-26 at 2 44 12 PM](https://github.com/user-attachments/assets/364017c9-c74e-4a59-9b65-fd767eee35f2)
+
 
 
 
 
 **Output Timing Waveform**
 FULL ADDER:
-![WhatsApp Image 2025-11-26 at 7 34 30 PM (1)](https://github.com/user-attachments/assets/88b57ceb-5b49-4364-89a9-124a9365e738)
-FULL SUBRACTOR:
 ![WhatsApp Image 2025-11-26 at 7 34 30 PM (2)](https://github.com/user-attachments/assets/d9f1efe9-5b32-40d0-a178-7aa321848701)
+FULL SUBRACTOR:
+![WhatsApp Image 2025-11-26 at 7 34 30 PM (1)](https://github.com/user-attachments/assets/88b57ceb-5b49-4364-89a9-124a9365e738)
+
 
 
 
