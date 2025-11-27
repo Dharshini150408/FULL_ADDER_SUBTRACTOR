@@ -45,7 +45,7 @@ Write the detailed procedure here
 **Program**:
 FULL ADDER:
 ```
-module ezp4(a,b,cin,sum,carry); 
+module exp4(a,b,cin,sum,carry); 
 input a,b,cin; 
 output sum,carry; 
 assign sum=( (a ^ b)^cin); 
@@ -54,7 +54,7 @@ endmodule
 ```
 FULL SUBRACTOR:
 ```
-module fs(a,b,bin,difference,borrow); 
+module exp4(a,b,bin,difference,borrow); 
 input a,b,bin; 
 output difference,borrow; 
 assign difference= ( (a ^ b)^bin); 
