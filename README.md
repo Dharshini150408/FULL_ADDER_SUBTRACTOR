@@ -68,9 +68,11 @@ Developed by: RegisterNumber:25018006
 
 **RTL Schematic**
 FULL ADDER:
-![WhatsApp Image 2025-11-26 at 7 34 30 PM](https://github.com/user-attachments/assets/751e39cd-621b-456e-a6c9-6ab4f3d5bcb7)
-FULL SUBRACTOR:
 ![WhatsApp Image 2025-11-26 at 2 44 12 PM](https://github.com/user-attachments/assets/95bd5979-db48-492d-844c-860121395a22)
+
+FULL SUBRACTOR:
+![WhatsApp Image 2025-11-26 at 7 34 30 PM](https://github.com/user-attachments/assets/751e39cd-621b-456e-a6c9-6ab4f3d5bcb7)
+
 
 
 
